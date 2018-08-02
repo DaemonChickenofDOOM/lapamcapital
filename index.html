@@ -4,148 +4,151 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>龙磐投资</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
     <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <h1>Welcome to Foundation</h1>
+
+      <!-- Top Bar Assembly -->
+      <div class="small-12"  style="z-index: 666;"data-sticky-container>
+        <!-- Used Z-index to place top-bar at top, always. 
+        666 is just the largest number in use. 
+        Needed in order to actually have the dropdown behave correctly. -->
+        <div class="top-bar sticky" data-sticky data-margin-top="0">
+
+          <div class="top-bar-left">
+            <h4>龙磐投资</h4>
+          </div>
+
+          <div class="top-bar-right">
+            <ul class="dropdown menu align-right" data-dropdown-menu>
+              <li><a href="mainpage.html">首页</a></li>
+              <li><a href="#">关于我们</a>
+
+                <ul class="menu">
+                  <li><a href="overview.html">公司概况</a></li>
+                  <li><a href="team.html">团队</a></li>
+                  <li><a href="casestudy.html">案例</a></li>
+                  <li><a href="vc-funds.html">基金</a></li>
+                </ul>
+
+              </li>
+              <li><a href="news.html">新闻</a></li>
+              <li><a href="contactus.html" class="button">联系我们</a></li>
+            </ul>
+          </div>
+          
         </div>
       </div>
-
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <div class="callout">
-            <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-            <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-            <p>Once you've exhausted the fun in this document, you should check out:</p>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-              </div>
-              <div class="large-4 medium-4 cell">
-                <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-              </div>
-              <div class="large-4 medium-4 cell">
-                <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-              </div>
+      <!-- End Top Bar Assembly -->
+      
+      <!-- Slideshow Thingy -->
+      <div class="small-12">
+        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+          <div class="orbit-wrapper">
+            <div class="orbit-controls">
+              <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+              <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
             </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 medium-push-2 cell">
-                <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-              </div>
-              <div class="large-4 medium-4 medium-pull-2 cell">
-                <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-              </div>
-            </div>
+            <ul class="orbit-container">
+              <li class="is-active orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="images\indianhead.png" alt="Space">
+                  <figcaption class="orbit-caption">Please Stand By...</figcaption>
+                </figure>
+              </li>
+              <li class="orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="images\FuBK_wide.jpg" alt="Space">
+                  <figcaption class="orbit-caption">Please Stand By...</figcaption>
+                </figure>
+              </li>
+              <li class="orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="images\canberra.jpg" alt="Space">
+                  <figcaption class="orbit-caption">Please Stand By...</figcaption>
+                </figure>
+              </li>
+              <li class="orbit-slide">
+                <figure class="orbit-figure">
+                  <img class="orbit-image" src="images\RCA.png" alt="Space">
+                  <figcaption class="orbit-caption">Please Stand By...</figcaption>
+                </figure>
+              </li>
+            </ul>
           </div>
+          <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+          </nav>
         </div>
       </div>
 
       <div class="grid-x grid-padding-x">
         <div class="large-8 medium-8 cell">
-          <h5>Here&rsquo;s your basic grid:</h5>
-          <!-- Grid Example -->
+          <p>
+            Lorem ipsum dolor sit amet, discere intellegam ne eum, ex dolore ancillae abhorreant mei, brute mnesarchum no sea. Ius habemus explicari ex, doming referrentur mei ex. Solet nominavi ex sit, usu te elit nostro. Et dolor tacimates cum, est labores invidunt ad. Zril scribentur cu duo, ut menandri complectitur eum, eruditi fierent ei has. Mazim regione delicata at has, eu nostro alienum apeirian quo. Sea eu timeam dissentias, pri no porro instructior.
+          </p>
 
-          <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-              <div class="primary callout">
-                <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-              </div>
+          <p>
+            Melius maiestatis temporibus no sed, ius oratio definiebas id. Pro ut eros concludaturque. Id hinc elit inermis nam. Liber sadipscing dissentiunt cu vel, cu vis persius fuisset, te ius quas modus. Per eripuit pertinacia assueverit ei, at mea populo nominavi. Mentitum accusamus splendide mei in, qui cu quot voluptatum. Delicata partiendo assueverit te pri.
+          </p>
+
+          <hr />
+
+          <h5>我们的优势</h5>
+          <div class="card">
+            <div class="card-divider">
+              高度专业
+            </div>
+            <div class="card-section">
+              <ul>
+                <li>多位风险投资及私募股权投资的自身专业人士</li>
+                <li>多位生物医药产业专业人士，包括国家“千人计划”顶级医药专家</li>
+                <li>数十位医药行业国内最顶尖专家组成的外部专家咨询团队</li>
+              </ul>
             </div>
           </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
+          <div class="card">
+            <div class="card-divider">
+              经验丰富
             </div>
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
+            <div class="card-section">
+              <ul>
+                <li>拥有多年风险投资、私募股权从业经验和众多成功案例</li>
+                <li>对国内初创期、早中期及成长期药企持续多年的系统跟踪研究</li>
+                <li>已成功投资了十余家国内明星药企，投资项目储备丰富</li>
+              </ul>
             </div>
           </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
+          <div class="card">
+            <div class="card-divider">
+              优势资源
             </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
+            <div class="card-section">
+              <ul>
+                <li>生物医药产业相关的注册审批、各级医保等核心政府资源</li>
+                <li>丰富的专家资源：国内外科研专家、临床专家、审评专家</li>
+                <li>广泛的生物医药企业家资源已经完整的产业链资源</li>
+              </ul>
             </div>
           </div>
 
           <hr />
 
-          <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-          <form>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-12.cell" />
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <div class="grid-x">
-                  <label>Input Label</label>
-                  <div class="input-group">
-                    <input type="text" placeholder="small-9.cell" class="input-group-field" />
-                    <span class="input-group-label">.com</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Select Box</label>
-                <select>
-                  <option value="husker">Husker</option>
-                  <option value="starbuck">Starbuck</option>
-                  <option value="hotdog">Hot Dog</option>
-                  <option value="apollo">Apollo</option>
-                </select>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-6 medium-6 cell">
-                <label>Choose Your Favorite</label>
-                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-              </div>
-              <div class="large-6 medium-6 cell">
-                <label>Check these out</label>
-                <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-                <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Textarea Label</label>
-                <textarea placeholder="small-12.cell"></textarea>
-              </div>
-            </div>
-          </form>
+          <h5>我们的团队</h5>
+          <p>Under Construction -- Place Equalizer Here</p>
+
+          <hr />
+          <h5>联系我们</h5>
+
+
+
+
         </div>
 
         <div class="large-4 medium-4 cell">
