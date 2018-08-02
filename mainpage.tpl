@@ -1,49 +1,3 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>龙磐投资</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
-    <div class="grid-container">
-
-      <!-- Top Bar Assembly -->
-      <div class="small-12"  style="z-index: 666;"data-sticky-container>
-        <!-- Used Z-index to place top-bar at top, always. 
-        666 is just the largest number in use. 
-        Needed in order to actually have the dropdown behave correctly. -->
-        <div class="top-bar sticky" data-sticky data-margin-top="0">
-
-          <div class="top-bar-left">
-            <h4>龙磐投资</h4>
-          </div>
-
-          <div class="top-bar-right">
-            <ul class="dropdown menu align-right" data-dropdown-menu>
-              <li><a href="mainpage.html">首页</a></li>
-              <li><a href="#">关于我们</a>
-
-                <ul class="menu">
-                  <li><a href="overview.html">公司概况</a></li>
-                  <li><a href="team.html">团队</a></li>
-                  <li><a href="casestudy.html">案例</a></li>
-                  <li><a href="vc-funds.html">基金</a></li>
-                </ul>
-
-              </li>
-              <li><a href="news.html">新闻</a></li>
-              <li><a href="contactus.html" class="button">联系我们</a></li>
-            </ul>
-          </div>
-          
-        </div>
-      </div>
-      <!-- End Top Bar Assembly -->
-      
       <!-- Slideshow Thingy -->
       <div class="small-12">
         <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
@@ -164,11 +118,3 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
-</html>
