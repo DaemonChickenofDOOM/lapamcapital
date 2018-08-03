@@ -16,7 +16,7 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/canada.jpg"
+                      src="/images/canada.jpg"
                       alt="Impressive, isn't he?"
                       >
                     </div>
@@ -47,7 +47,7 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/canada.jpg"
+                      src="/images/canada.jpg"
                       alt="Impressive, isn't he?"
                       >
                     </div>
@@ -85,7 +85,7 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/canada.jpg"
+                      src="/images/canada.jpg"
                       alt="Impressive, isn't he?"
                       >
                     </div>
@@ -110,7 +110,7 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/canada.jpg"
+                      src="/images/canada.jpg"
                       alt="Impressive, isn't he?"
                       >
                     </div>
