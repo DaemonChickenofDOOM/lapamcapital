@@ -55,25 +55,25 @@
             <ul class="orbit-container">
               <li class="is-active orbit-slide">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="images\indianhead.png" alt="Space">
+                  <img class="orbit-image" src="images/indianhead.png" alt="Space">
                   <figcaption class="orbit-caption">Please Stand By...</figcaption>
                 </figure>
               </li>
               <li class="orbit-slide">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="images\FuBK_wide.jpg" alt="Space">
+                  <img class="orbit-image" src="images/FuBK_wide.jpg" alt="Space">
                   <figcaption class="orbit-caption">Please Stand By...</figcaption>
                 </figure>
               </li>
               <li class="orbit-slide">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="images\canberra.jpg" alt="Space">
+                  <img class="orbit-image" src="images/canberra.jpg" alt="Space">
                   <figcaption class="orbit-caption">Please Stand By...</figcaption>
                 </figure>
               </li>
               <li class="orbit-slide">
                 <figure class="orbit-figure">
-                  <img class="orbit-image" src="images\RCA.png" alt="Space">
+                  <img class="orbit-image" src="images/RCA.png" alt="Space">
                   <figcaption class="orbit-caption">Please Stand By...</figcaption>
                 </figure>
               </li>
