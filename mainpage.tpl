@@ -142,6 +142,14 @@
               <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
             </nav>
           </div> -->
+          <div class="callout">
+            <h5>行业新闻</h5>
+            <hr>
+          </div>
+          <div class="callout">
+            <h5>公司动态</h5>
+            <hr>
+          </div>
           <h5>Try one of these buttons:</h5>
           <p><a href="#" class="button">Simple Button</a><br/>
           <a href="#" class="success button">Success Btn</a><br/>
