@@ -160,15 +160,5 @@
               <li><a href="https://cn.reuters.com/article/global-market-asia-pboc-trade-war-0806-idCNKBS1KR09N?il=0">中国央行举措提振亚股全线上涨 但涨幅因贸易战忧虑受抑</a></li>
             </ul>
           </div>
-          <h5>Try one of these buttons:</h5>
-          <p><a href="#" class="button">Simple Button</a><br/>
-          <a href="#" class="success button">Success Btn</a><br/>
-          <a href="#" class="alert button">Alert Btn</a><br/>
-          <a href="#" class="secondary button">Secondary Btn</a></p>
-          <div class="callout">
-            <h5>So many components, girl!</h5>
-            <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-            <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
-          </div>
         </div>
       </div>
