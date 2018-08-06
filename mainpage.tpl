@@ -102,7 +102,7 @@
         </div>
 
         <div class="large-4 medium-4 cell">
-          <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+          <!-- <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
             <div class="orbit-wrapper">
               <div class="orbit-controls">
                 <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
@@ -141,7 +141,7 @@
               <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
               <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
             </nav>
-          </div>
+          </div> -->
           <h5>Try one of these buttons:</h5>
           <p><a href="#" class="button">Simple Button</a><br/>
           <a href="#" class="success button">Success Btn</a><br/>
