@@ -5,8 +5,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>龙磐资本</title>
-    <link rel="stylesheet" href="/home/Vostok/lapamcapital/css/foundation.css">
-    <link rel="stylesheet" href="/home/Vostok/lapamcapital/css/app.css">
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
     <div class="grid-container">
