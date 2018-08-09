@@ -145,20 +145,3 @@
           <div class="callout">
             <h5>行业新闻</h5>
             <hr>
-            <ul>
-              <li><a href="https://cn.reuters.com/article/iran-nuclear-economy-foreign-currency-08-idCNKBS1KR01U">焦点：伊朗放宽外汇规定 盼于美国恢复制裁前拉抬本币里亚尔</a></li>
-              <li><a href="https://cn.reuters.com/article/ecb-lautenschlaeger-bank-regulation-0806-idCNKBS1KR0AM?il=0">欧洲央行执委劳滕施莱格称忧心银行业放松监管--德国周日世界报</a></li>
-              <li><a href="https://cn.reuters.com/article/global-market-asia-pboc-trade-war-0806-idCNKBS1KR09N?il=0">中国央行举措提振亚股全线上涨 但涨幅因贸易战忧虑受抑</a></li>
-            </ul>
-          </div>
-          <div class="callout">
-            <h5>公司动态</h5>
-            <hr>
-            <ul>
-              <li><a href="https://cn.reuters.com/article/iran-nuclear-economy-foreign-currency-08-idCNKBS1KR01U">焦点：伊朗放宽外汇规定 盼于美国恢复制裁前拉抬本币里亚尔</a></li>
-              <li><a href="https://cn.reuters.com/article/ecb-lautenschlaeger-bank-regulation-0806-idCNKBS1KR0AM?il=0">欧洲央行执委劳滕施莱格称忧心银行业放松监管--德国周日世界报</a></li>
-              <li><a href="https://cn.reuters.com/article/global-market-asia-pboc-trade-war-0806-idCNKBS1KR09N?il=0">中国央行举措提振亚股全线上涨 但涨幅因贸易战忧虑受抑</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
