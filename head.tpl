@@ -28,7 +28,7 @@
           <div class="top-bar-right">
             <ul class="menu dropdown align-right" data-dropdown-menu>
               <li><a href="/">首页</a></li>
-              <li><a href="/#">关于我们</a>
+              <li><a href="#">关于我们</a>
 
                 <ul class="menu">
                   <li><a href="/overview">公司概况</a></li>
