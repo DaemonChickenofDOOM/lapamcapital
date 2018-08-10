@@ -5,7 +5,10 @@
           <div class="grid-x grid-padding-x">
             <div class="cell">
               <h2>新闻</h2>
-              <a href="/news/internal">公司新闻</a>|<a href="/news/external">行业新闻</a>
+              <div class="button-group">
+                <a class="button" href="/news/internal">公司新闻</a>
+                <a class="button" href="/news/external">行业新闻</a>
+              </div>
               <hr/>
 
             </div>
