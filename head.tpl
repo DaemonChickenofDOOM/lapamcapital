@@ -28,18 +28,18 @@
           <div class="top-bar-right">
             <ul class="menu dropdown align-right" data-dropdown-menu>
               <li><a href="/">首页</a></li>
-              <li><a href="#">关于我们</a>
+              <li><a href="/#">关于我们</a>
 
                 <ul class="menu">
-                  <li><a href="overview">公司概况</a></li>
-                  <li><a href="team">团队</a></li>
-                  <li><a href="casestudy">案例</a></li>
-                  <li><a href="vc-funds">基金</a></li>
+                  <li><a href="/overview">公司概况</a></li>
+                  <li><a href="/team">团队</a></li>
+                  <li><a href="/casestudy">案例</a></li>
+                  <li><a href="/vc-funds">基金</a></li>
                 </ul>
 
               </li>
-              <li><a href="news">新闻</a></li>
-              <li><a href="contactus" class="button">联系我们</a></li>
+              <li><a href="/news">新闻</a></li>
+              <li><a href="/contactus" class="button">联系我们</a></li>
             </ul>
           </div>
 
