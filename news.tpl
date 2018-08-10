@@ -6,8 +6,8 @@
             <div class="cell">
               <h2>新闻</h2>
               <ul class="menu">
-                <li><a class="button" href="/news/internal">公司新闻</a></li>
-                <li><a class="button" href="/news/external">行业新闻</a></li>
+                <li><a class="" href="/news/internal">公司新闻</a></li>
+                <li><a class="" href="/news/external">行业新闻</a></li>
               </ul>
               <hr/>
 
