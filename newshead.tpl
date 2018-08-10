@@ -1,3 +1,4 @@
+	  <!-- newshead starts -->
       <div class="grid-x grid-padding-x">
       	<div class="cell auto">
 			<h2>{{headline}}</h2>
