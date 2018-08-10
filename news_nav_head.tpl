@@ -1,3 +1,4 @@
+      <!-- news navigation head begins -->
       <div class="grid-x grid-padding-x">
         <!-- <div class="large-8 medium-8 cell sections"> -->
         <div class="cell auto">
@@ -15,4 +16,5 @@
             </div>
           </div>
         </div>
-      </div> <!-- closes non-topbar stuff -->
+      </div> <!-- closes header stuff -->
+      <!-- news navigation head ends -->
