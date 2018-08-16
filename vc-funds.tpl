@@ -16,9 +16,11 @@
 
                     <div class="large-8 medium-8 cell">
                       <h3>龙磐一期</h3>
-                      <p></p>
-                      <p>Canada is a country located in the northern part of North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area. </p>
-                      <p>As a whole, Canada is sparsely populated, the majority of its land area being dominated by forest and tundra. Consequently, its population is highly urbanized, with 82 percent of the 35.15 million people concentrated in large and medium-sized cities, many near the southern border. Its capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver. </p>
+                      <ul>
+                        <li>整体预期回报：现今回报倍数>5倍，IRR>30%</li>
+                        <li>多个高回报倍数的明星项目：贝达药业（10倍）、康蒂尼（30倍）</li>
+                        <li>无不可持续经营或破产项目，最不理想项目2018年内均可按约定利息回收本息</li>
+                      </ul>
                     </div>
 
                   </div>
@@ -41,9 +43,10 @@
 
                     <div class="large-8 medium-8 cell">
                       <h3>龙磐二期</h3>
-                      <p></p>
-                      <p>Canada is a country located in the northern part of North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area. </p>
-                      <p>As a whole, Canada is sparsely populated, the majority of its land area being dominated by forest and tundra. Consequently, its population is highly urbanized, with 82 percent of the 35.15 million people concentrated in large and medium-sized cities, many near the southern border. Its capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver. </p>
+                      <ul>
+                        <li>整体预期回报：现金回报倍数>5倍，IRR>30%；</li>
+                        <li>多个项目新一轮估值显著提升</li>
+                      </ul>  
                     </div>
 
                   </div>
@@ -85,15 +88,16 @@
                     <div class="large-4 medium-4 cell">
                       <img 
                       src="https://picsum.photos/200/300/?random"
-                      alt="Impressive, isn't he?"
+                      alt="placeholder image"
                       >
                     </div>
 
                     <div class="large-8 medium-8 cell">
                       <h3>龙磐四期</h3>
-                      <p></p>
-                      <p>Canada is a country located in the northern part of North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area. </p>
-                      <p>As a whole, Canada is sparsely populated, the majority of its land area being dominated by forest and tundra. Consequently, its population is highly urbanized, with 82 percent of the 35.15 million people concentrated in large and medium-sized cities, many near the southern border. Its capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver. </p>
+                      <ul>
+                        <li>规模约人民币25亿元，2018年11月设立及首轮封闭</li>
+                        <li>生物医药为主要投资方向</li>
+                      </ul>
                     </div>
 
                   </div>
