@@ -59,7 +59,7 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/empirestate.jpg"
+                      src="/images/staff/yuzhihua.jpg"
                       alt="Impressive, isn't he?"
                       style="width:220px" 
                       >
@@ -137,8 +137,9 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/empirestate.jpg"
+                      src="/images/hanyongxin.jpg"
                       alt="Impressive, isn't he?"
+                      style="width: 220px" 
                       >
                     </div>
 
@@ -167,8 +168,9 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/empirestate.jpg"
+                      src="/images/staff/sunhui.jpg"
                       alt="Impressive, isn't he?"
+                      style="width: 220px" 
                       >
                     </div>
 
@@ -192,7 +194,7 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/staff/lijunhong.jpg"
+                      src="/images/staff/lijunhong.jpg"
                       alt="Impressive, isn't he?"
                       style="width: 220px" 
                       >
@@ -218,7 +220,7 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/staff/huangwenna.jpg"
+                      src="/images/staff/huangwenna.jpg"
                       alt="Impressive, isn't he?"
                       style="width: 220px" 
                       >
@@ -244,7 +246,7 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/empirestate.jpg"
+                      src="/images/empirestate.jpg"
                       alt="Impressive, isn't he?"
                       >
                     </div>
