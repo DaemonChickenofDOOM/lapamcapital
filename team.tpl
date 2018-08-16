@@ -84,7 +84,7 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/empirestate.jpg"
+                      src="/images/staff/xuguangyu.jpg"
                       alt="Impressive, isn't he?"
                       >
                     </div>
@@ -109,7 +109,7 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/empirestate.jpg"
+                      src="/images/staff/zhangfaming.jpg"
                       alt="Impressive, isn't he?"
                       >
                     </div>
