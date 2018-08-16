@@ -137,7 +137,7 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="/images/hanyongxin.jpg"
+                      src="/images/staff/hanyongxin.jpg"
                       alt="Impressive, isn't he?"
                       style="width: 220px" 
                       >
