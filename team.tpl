@@ -60,7 +60,7 @@
                     <div class="large-4 medium-4 cell">
                       <img 
                       src="/images/staff/yuzhihua.jpg"
-                      alt="Impressive, isn't he?"
+                      alt="余治华"
                       style="width:220px" 
                       >
                     </div>
@@ -86,7 +86,7 @@
                     <div class="large-4 medium-4 cell">
                       <img 
                       src="/images/staff/xuguangyu.jpg"
-                      alt="Impressive, isn't he?"
+                      alt="徐光宇"
                       style="width: 220px" 
                       >
                     </div>
@@ -112,7 +112,7 @@
                     <div class="large-4 medium-4 cell">
                       <img 
                       src="/images/staff/zhangfaming.jpg"
-                      alt="Impressive, isn't he?"
+                      alt="张发明"
                       style="width: 220px" 
                       >
                     </div>
@@ -138,7 +138,7 @@
                     <div class="large-4 medium-4 cell">
                       <img 
                       src="/images/staff/hanyongxin.jpg"
-                      alt="Impressive, isn't he?"
+                      alt="韩永信"
                       style="width: 220px" 
                       >
                     </div>
@@ -169,7 +169,7 @@
                     <div class="large-4 medium-4 cell">
                       <img 
                       src="/images/staff/sunhui.jpg"
-                      alt="Impressive, isn't he?"
+                      alt="孙慧"
                       style="width: 220px" 
                       >
                     </div>
@@ -195,7 +195,7 @@
                     <div class="large-4 medium-4 cell">
                       <img 
                       src="/images/staff/lijunhong.jpg"
-                      alt="Impressive, isn't he?"
+                      alt="李军红"
                       style="width: 220px" 
                       >
                     </div>
@@ -221,7 +221,7 @@
                     <div class="large-4 medium-4 cell">
                       <img 
                       src="/images/staff/huangwenna.jpg"
-                      alt="Impressive, isn't he?"
+                      alt="黄文娜"
                       style="width: 220px" 
                       >
                     </div>
@@ -247,7 +247,7 @@
                     <div class="large-4 medium-4 cell">
                       <img 
                       src="/images/empirestate.jpg"
-                      alt="Impressive, isn't he?"
+                      alt="夏益"
                       >
                     </div>
 
