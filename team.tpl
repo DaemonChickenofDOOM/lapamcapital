@@ -61,6 +61,7 @@
                       <img 
                       src="images/empirestate.jpg"
                       alt="Impressive, isn't he?"
+                      style="width:220px" 
                       >
                     </div>
 
@@ -86,6 +87,7 @@
                       <img 
                       src="/images/staff/xuguangyu.jpg"
                       alt="Impressive, isn't he?"
+                      style="width: 220px" 
                       >
                     </div>
 
@@ -111,6 +113,7 @@
                       <img 
                       src="/images/staff/zhangfaming.jpg"
                       alt="Impressive, isn't he?"
+                      style="width: 220px" 
                       >
                     </div>
 
@@ -189,8 +192,9 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/empirestate.jpg"
+                      src="images/staff/lijunhong.jpg"
                       alt="Impressive, isn't he?"
+                      style="width: 220px" 
                       >
                     </div>
 
@@ -214,8 +218,9 @@
 
                     <div class="large-4 medium-4 cell">
                       <img 
-                      src="images/empirestate.jpg"
+                      src="images/staff/huangwenna.jpg"
                       alt="Impressive, isn't he?"
+                      style="width: 220px" 
                       >
                     </div>
 
