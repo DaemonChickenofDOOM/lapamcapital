@@ -1,22 +1,11 @@
       <div class="grid-x grid-padding-x">
-      	<ul>
+      	<ul class="menu">
 		   <li><a href="#tab-description">Description</a></li>
 		   <li><a href="#tab-shipping">Shipping</a></li>
 		   <li><a href="#tab-returns">Returns</a></li>
 		</ul>
-		<div id="tab-description" class="mytabs">
+		<div>
 			Eins
 		</div>
-		<div id="tab-shipping" class="mytabs">
-			Zwei
-		</div>
-		<div id="tab-returns" class="mytabs">
-			Drei
-		</div>
       </div>
-          <script src="/js/vendor/jquery-min.js"></script>
-
-      <script language="javascript" type="text/javascript">
-      	$(document).ready(function(){$("#mytabs").tabs({fx:{opacity:"toggle"}})});
-      </script>
 
