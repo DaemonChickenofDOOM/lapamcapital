@@ -144,22 +144,26 @@
                     </div>
 
                     <div class="large-8 medium-8 cell">
-                      <h3>韩永信</h3>
-                      <p></p>
-                      <p>under construction</p>
-                      <p></p>
+                      	<h3>韩永信</h3>
+						<ul>
+							<li>20+年生物医药研发及管理经验</li>
+							<li>入选 “海聚工程”，“北京市特聘专家”及“科技北京百名领军人才”</li>
+							<li>曾任职北京赛林泰医药技术有限公司总经理，组建临床前药物开发完整平台和研发团队，为公司签订开发合同4.5亿元人民币，并开展8个1.1类抗肿瘤新药的临床研究</li>
+							<li>联合创立Chemizon Inc.，担任公司董事和全球化学副总裁; 曾任美国反录基因生化制药公司Hybridon、以及美国生物制药公司Array的高级项目经理</li>
+							<li>北京大学化学系学士学位；中国科学院化学研究所有机化学硕士学位；美国明尼苏达大学有机化学博士学位</li>
+						</ul>
                     </div>
 
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-          <div class="grid-x grid-padding-x">
-            <div class="cell auto">
-              <h3> 执行团队</h3>
-            </div>
-          </div>
+		  </section>
+		  <div class="grid-x grid-padding-x">
+		    <div class="cell auto">
+		      <h3> 执行团队</h3>
+		    </div>
+		  </div>
           <section id="funf" data-magellan-target="funf">
             <div class="grid-x grid-padding-x" id="funf">
               <div class="small-12 medium-12 large-12 cell">
