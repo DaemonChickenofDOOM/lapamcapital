@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>龙磐资本</title>
     <link rel="stylesheet" href="/css/foundation.min.css">
-    <link rel="stylesheet" href="/css/app.css">
+    <!-- <link rel="stylesheet" href="/css/app.css"> --> <!-- use if you actually get custom css -->
   </head>
   <body>
     <div class="grid-container">
@@ -35,6 +35,7 @@
                   <li><a href="/team">团队</a></li>
                   <li><a href="/casestudy">案例</a></li>
                   <li><a href="/vc-funds">基金</a></li>
+                  <li><a href="/portfolio">被投公司</a>
                 </ul>
 
               </li>
