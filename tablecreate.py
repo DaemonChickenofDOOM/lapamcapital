@@ -1,17 +1,14 @@
 #!/usr/bin/python3
 
 import sqlite3
+import csv
 
-conn = sqlite3.connect('articles.db')
+data_file = input("data_file> ")
+direction = input("direction> ")
+with 
+conn = sqlite3.connect('portfolio.db')
+c = conn.cursor()
 
-conn.execute("""
-	CREATE TABLE ARTICLES (
-		id INTEGER NOT NULL,
-		title CHARACTER,
-		docreation CHARACTER,
-		articlecategory INTEGER,
-		CONSTRAINT PK_articles PRIMARY KEY (id))""")
-
-
+c.execute("""""")
 
 conn.commit()
