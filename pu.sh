@@ -9,3 +9,5 @@ git push origin master
 ## for this machine if you plan on doing this.
 ssh Vostok@ssh.pythonanywhere.com pull
 
+## update site
+./api.py
