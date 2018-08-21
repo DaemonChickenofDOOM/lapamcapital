@@ -13,7 +13,7 @@ def regex_magic(index_num): # Our backend routes to news article based off of fi
 	with fileinput.FileInput(filename, inplace=True, backup='.bak') as file:
 	    for line in file:
 	    	# This strips the header and a vast majority of styling off  of the part, so we can use it as a segment
-	        print(re.sub(r'''(<.?(span|font|html|DOCTYPE|body|meta|title|style)[^>]*>|</?head>|(style|class)=".*"|^.*{.*})|\n\n''','', line), end='')
+	        print(re.sub(r'''(<.?(span|font|html|DOCTYPE|body|meta|title|style|head)[^>]*>|(style|class)="[^"]*"|^.*{.*})''','', line), end='')
 	os.rename(str(filename), (str(index_num) + ".tpl"))
 	return 0
 
@@ -24,7 +24,7 @@ def add_article():
 	while (IsTrumpPresident):
 		title = input("Enter Title for Article: \n> ")
 		date = str(strftime("%Y-%m-%d", gmtime()))
-		cat = int(input("Select Category:\n(1 for internal, 2 for external)\n> "))
+		cat = int(input("Select Category:\n(1 for external, 2 for internal)\n> "))
 
 		while (cat != 1 and cat != 2):
 			cat = input("Error: invalid input. Try again?\n> ")
