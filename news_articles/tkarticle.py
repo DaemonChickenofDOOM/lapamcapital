@@ -23,19 +23,43 @@ import os
 import sys
 import fileinput
 ## actual backend functions
-def regex_magic(index_num, filename): # Our backend routes to news article based off of file name. This 
+def sanitize(input_string): ## input sanitization because that's apparently an issue
+    forbiddenchars = (';')
+    output_string = ''
+    outchar = ""
+    for i in input_string:
+        if i == "'":
+            outchar = "''"
+        elif (i in forbiddenchars):
+            messagebox.showerror('错误', '新闻稿名称中不得有";"一字符') 
+        else:
+            outchar = i
+        output_string += outchar
+    return output_string
+
+def regex_magic(index_num, filename): # Our backend routes to news article based off of file name. 
+    print("processing file...")
     with fileinput.FileInput(filename, inplace=True, backup='.bak') as file:
         for line in file:
-            # This strips the header and a vast majority of styling off  of the part, so we can use it as a segment
-            print(re.sub(r'''(<.?(span|font|html|DOCTYPE|body|meta|title|style|head)[^>]*>|(style|class)="[^"]*"|^.*{.*})''','', line), end='')
-    os.rename(str(filename), (str(index_num) + ".tpl"))
+            ## This strips the header and a vast majority of styling off  of the part, so we can use it as a segment
+            print(re.sub(r'''(\n\n|<.?(span|font|html|DOCTYPE|body|meta|title|style|head)[^>]*>|(style|class)="[^"]*"|^.*{.*})''','', line), end='')
+    # print("success!")
+    # os.rename(str(filename), (str(index_num) + ".tpl"))
+    # print("file renamed!")
+    with open(str(filename), "r") as infile, \
+        open((str(index_num) + ".tpl"),"w") as outfile:
+        ## Probably a memory hog, but what can you do?
+        content = infile.read()
+        top = '<!-- Automatically generated article segment start -->\n'
+        bottom = '\n<!-- Automatically generated article segment finish -->'
+        content = top + content + bottom
+        outfile.write(content)
     return 0
 
 def add_article(title, cat, filename):
-    print(">>" + filename)
+    title = sanitize(title)
     conn = sqlite3.connect('articles.db')
     c = conn.cursor()
-    IsTrumpPresident=-2
     date = str(strftime("%Y-%m-%d", gmtime()))
     if (cat == 1):
         category_text = "internal"
@@ -47,17 +71,17 @@ def add_article(title, cat, filename):
     print(">> Title:" + title + "\n>> Date:" + date + "\n>> Category:" + category_text)
     # wrap for sanity
     continue_switch = \
-    messagebox.askyesno('信息确认','标题：{title}\n日期：{date}\n类型：{category_text}'.format(title=title,date=date,category_text=category_text))
+    messagebox.askyesno('信息确认','标题：{title}\n日期：{date}\n类型：{category_text}'\
+        .format(title=title,date=date,category_text=category_text))
     if(int(continue_switch) == 1):
         # cat typecasted as a string was used here because the SQLite DB in backend handles zeroes and ones for the category
-        conn.execute("INSERT INTO articles (title,docreation,articlecategory) VALUES ('" + title + "','" + date + "'," + str(cat) +")")
+        conn.execute("""INSERT INTO articles (title,docreation,articlecategory) VALUES ('{title}','{date}',{cat})"""\
+            .format(title=str(title),date=date,cat=cat))
         c.execute("SELECT id FROM articles WHERE title='{title}'".format(title=str(title)))
 
         index_num_list = c.fetchall()
         index_num = index_num_list[0][0]
-        print("Now renaming file...")
         regex_magic(index_num, filename)
-
         conn.commit()
         conn.close()
         return 0
@@ -108,7 +132,6 @@ def doshit():
     print(">" + filename)
     add_article(title, cat, filename)
     messagebox.showinfo('Alert', '添加成功')
-    window.destroy() #TKinter complains about this, no clue what it's about.
 magic = Button(window, text= "添加新闻稿", command = doshit)
 magic.grid(column = 0, row = 5)
 
